@@ -1,0 +1,42 @@
+.projects {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 0;
+  justify-content: center;
+  margin-top: 40px;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+  color: black;
+}
+.image-container img {
+  width: 400px;
+  height: 400px;
+}
+.text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 400px;
+  opacity: 0;
+  background-color: white;
+  transition: opacity 1s ease;
+}
+
+.text-overlay p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.image-container:hover .text-overlay {
+  opacity: 0.8;
+}
+
+.image-container:hover img {
+  opacity: 0.2;
+}
