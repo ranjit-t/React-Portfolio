@@ -4,28 +4,31 @@ import "./MySkills.css";
 
 export default function MySkills() {
   return (
-    <div className="my-skills">
+    <div className="my-skills h-screen">
       <div className="flow flow-column align-middle justify-center ">
-        <p className="font-playfair font-semibold text-4xl mb-5 ">
-          MY <span className="text-red">SKILLS</span>
-        </p>
-        <LineGradient width="w-100" />
-        <p className="mt-10 mb-7">
-          <b>Computer Languages :</b>
+        <div className=" w-full flex align-middle justify-center">
+          <p className="font-playfair font-semibold text-4xl mb-5 ">
+            MY <span className="text-red">SKILLS</span>
+            <LineGradient width="w-60" />
+          </p>
+        </div>
+
+        <div className="mt-10 mb-7">
+          <p className="font-extrabold text-blue">Computer Languages :</p>
           <p>HTML, CSS, Sass, Javascript (ES6), Typescript</p>
-        </p>
-        <p className="mt-10 mb-7">
-          <b>Frameworks/Libraries :</b>
+        </div>
+        <div className="mt-10 mb-7">
+          <p className="font-extrabold text-blue">Frameworks/Libraries :</p>
           <p>React, React Native, Redux, Bootstrap, Tailwind, Material UI</p>
-        </p>
-        <p className="mt-10 mb-7">
-          <b>Technologies/Tools :</b>
+        </div>
+        <div className="mt-10 mb-7">
+          <p className="font-extrabold text-blue">Technologies/Tools :</p>
           <p>Node.Js, Express, MongoDB, Firebase, GIT/Github</p>
-        </p>
-        <p className="mt-10 mb-7">
-          <b>UI/UX Design Tools :</b>
-          <p>Adobe Photoshop, Illustrator, Figma</p>
-        </p>
+        </div>
+        <div className="mt-10 mb-7">
+          <p className="font-extrabold text-blue">Frameworks/Libraries :</p>
+          <p>UI/UX Design Tools :</p>
+        </div>
       </div>
       <div>
         <div

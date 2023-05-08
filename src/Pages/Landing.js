@@ -4,7 +4,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export default function Landing() {
   return (
-    <div className="landing">
+    <div className="landing h-screen">
       <div className="details">
         <div className="developer-name">
           <div className="first-name">

@@ -1,9 +1,14 @@
+.project-main {
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0 80px 0;
+}
 .projects {
   display: grid;
   grid-template-columns: auto auto auto;
   column-gap: 0;
   justify-content: center;
-  margin-top: 40px;
+  align-items: center;
 }
 .image-container {
   position: relative;
@@ -11,15 +16,16 @@
   color: black;
 }
 .image-container img {
-  width: 400px;
-  height: 400px;
+  /* width: calc(100vh); */
+  width: calc(100vw / 4.3);
+  height: calc(100vw / 4.3);
 }
 .text-overlay {
   position: absolute;
   top: 0;
   left: 0;
-  width: 400px;
-  height: 400px;
+  width: calc(100vw / 4.3);
+  height: calc(100vw / 4.3);
   opacity: 0;
   background-color: white;
   transition: opacity 1s ease;
