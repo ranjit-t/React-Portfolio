@@ -4,8 +4,8 @@ import LineGradient from "../Components/LineGradient";
 
 export default function Projects() {
   return (
-    <div className="project-main h-screen">
-      <div className=" w-full flex align-middle justify-center">
+    <div className="project-main">
+      <div className=" w-full flex align-middle justify-center mb-10">
         <p className="font-playfair font-semibold text-4xl mb-5">
           <span className="text-red">PRO</span>JECTS
           <LineGradient width="w-60 mt-0" />
