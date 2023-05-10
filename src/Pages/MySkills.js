@@ -26,11 +26,11 @@ export default function MySkills() {
           <p>Node.Js, Express, MongoDB, Firebase, GIT/Github</p>
         </div>
         <div className="mt-10 mb-7">
-          <p className="font-extrabold text-blue">Frameworks/Libraries :</p>
-          <p>UI/UX Design Tools :</p>
+          <p className="font-extrabold text-blue">UI/UX Design Tools :</p>
+          <p>Adobe Photoshop, Illustrator, Figma</p>
         </div>
       </div>
-      <div>
+      <div className="skills-photo">
         <div
           className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
               before:w-full before:h-full before:border-2 before:border-blue before:z-[-1] "
