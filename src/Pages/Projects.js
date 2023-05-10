@@ -105,8 +105,7 @@ export default function Projects() {
         </div>
         <div className="image-container">
           <div className="askformore bg-red flex ">
-            <p>React Based</p>
-
+            <p>React Frameworks</p>
             <p>Mobile Responsive</p>
             <p>User Friendly</p>
           </div>
