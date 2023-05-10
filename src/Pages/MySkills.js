@@ -13,21 +13,24 @@ export default function MySkills() {
           </p>
         </div>
 
-        <div className="mt-10 mb-7">
-          <p className="font-extrabold text-blue">Computer Languages :</p>
-          <p>HTML, CSS, Sass, Javascript (ES6), Typescript</p>
-        </div>
-        <div className="mt-10 mb-7">
-          <p className="font-extrabold text-blue">Frameworks/Libraries :</p>
-          <p>React, React Native, Redux, Bootstrap, Tailwind, Material UI</p>
-        </div>
-        <div className="mt-10 mb-7">
-          <p className="font-extrabold text-blue">Technologies/Tools :</p>
-          <p>Node.Js, Express, MongoDB, Firebase, GIT/Github</p>
-        </div>
-        <div className="mt-10 mb-7">
-          <p className="font-extrabold text-blue">UI/UX Design Tools :</p>
-          <p>Adobe Photoshop, Illustrator, Figma</p>
+        <div className="skills-list">
+          {" "}
+          <div className="mt-10 mb-7">
+            <p className="font-extrabold text-blue">Computer Languages :</p>
+            <p>HTML, CSS, Sass, Javascript (ES6), Typescript</p>
+          </div>
+          <div className="mt-10 mb-7">
+            <p className="font-extrabold text-blue">Frameworks/Libraries :</p>
+            <p>React, React Native, Redux, Bootstrap, Tailwind, Material UI</p>
+          </div>
+          <div className="mt-10 mb-7">
+            <p className="font-extrabold text-blue">Technologies/Tools :</p>
+            <p>Node.Js, Express, MongoDB, Firebase, GIT/Github</p>
+          </div>
+          <div className="mt-10 mb-7">
+            <p className="font-extrabold text-blue">UI/UX Design Tools :</p>
+            <p>Adobe Photoshop, Illustrator, Figma</p>
+          </div>
         </div>
       </div>
       <div className="skills-photo">
