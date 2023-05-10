@@ -11,9 +11,12 @@
 .details {
   margin-top: -90px;
 }
+.developer-bio {
+  font-size: 1.6vw;
+}
 .profile-photo {
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 35vw;
+  max-height: 35vw;
   border-radius: 50%;
   transition: all 0.5s;
 }
@@ -22,19 +25,52 @@
 }
 .developer-name {
   display: flex;
-  font-size: 70px;
+  font-size: 5vw;
   margin: 50px;
   align-items: center;
 }
 .last-name {
   background-image: url("../assets/brush.png") !important;
   background-repeat: no-repeat;
-  width: 300px;
-  height: 200px;
+  width: 25vw;
+  height: 15vw;
   background-size: cover; /* or "contain" */
   background-position: center center;
   display: flex;
   justify-content: center;
   align-items: center;
   color: black;
+}
+
+@media (max-width: 1000px) {
+  .landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: "100%";
+    margin-top: -70px;
+  }
+  .profile-photo {
+    margin-top: 60px;
+    max-width: 60vw;
+    max-height: 60vw;
+    border-radius: 50%;
+    transition: all 0.5s;
+  }
+
+  .developer-name {
+    font-size: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .developer-bio {
+    font-size: 3vw;
+  }
+  .last-name {
+    width: 30vw;
+    height: 20vw;
+  }
 }

@@ -15,10 +15,10 @@ export default function Landing() {
           </div>
         </div>
         <div className="developer-bio">
-          <p className="text-2xl font-bold underline my-2">
+          <p className="font-bold underline my-2">
             <b>Front End Developer</b>
           </p>
-          <p className="text-2xl">Javascript || React.Js || React Native</p>
+          <p>Javascript || React.Js || React Native</p>
         </div>
         <div className="mt-8 flex flex-row justify-center">
           <AnchorLink
