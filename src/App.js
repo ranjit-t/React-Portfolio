@@ -1,5 +1,6 @@
 import "./App.css";
 import LineGradient from "./Components/LineGradient";
+import Contact from "./Pages/Contact";
 import Landing from "./Pages/Landing";
 import MySkills from "./Pages/MySkills";
 import Projects from "./Pages/Projects";
@@ -23,6 +24,10 @@ function App() {
       </div>
       <div>
         <Projects></Projects>
+        <LineGradient className="mt-8"></LineGradient>
+      </div>
+      <div>
+        <Contact></Contact>
         <LineGradient className="mt-8"></LineGradient>
       </div>
     </div>
