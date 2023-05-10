@@ -35,6 +35,9 @@ textarea::placeholder {
 .form-btn:hover {
   background-color: rgb(46, 165, 201);
 }
+.footer {
+  margin: 60px 0 30px 0;
+}
 
 @media (max-width: 750px) {
   .contact-content {

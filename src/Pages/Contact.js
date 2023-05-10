@@ -40,6 +40,9 @@ export default function Contact() {
           </a>
         </div>
       </div>
+      <div className="footer">
+        <p>Made with ❤ by Ranjith Thota</p>
+      </div>
     </div>
   );
 }
