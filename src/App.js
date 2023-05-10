@@ -28,7 +28,7 @@ function App() {
       </div>
       <div>
         <Contact></Contact>
-        <LineGradient className="mt-8"></LineGradient>
+        {/* <LineGradient className="mt-8"></LineGradient> */}
       </div>
     </div>
   );

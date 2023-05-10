@@ -1,0 +1,47 @@
+.contact-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Source Code Pro", monospace;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+input,
+textarea {
+  color: black;
+  width: 300px;
+  padding: 5px;
+}
+input::placeholder,
+textarea::placeholder {
+  padding: 5px;
+}
+
+.contact-form label p {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.email-add {
+  font-size: 25px;
+}
+.form-btn {
+  background-color: rgb(44 188 233);
+  padding: 10px 0;
+}
+.form-btn:hover {
+  background-color: rgb(46, 165, 201);
+}
+
+@media (max-width: 750px) {
+  .contact-content {
+    flex-direction: column;
+  }
+  .email-add {
+    font-size: 25px;
+    margin-top: 80px;
+  }
+}
