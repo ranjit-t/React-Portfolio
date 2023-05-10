@@ -4,10 +4,10 @@ import "./MySkills.css";
 
 export default function MySkills() {
   return (
-    <div className="my-skills h-screen">
+    <div className="my-skills">
       <div className="flow flow-column align-middle justify-center ">
         <div className=" w-full flex align-middle justify-center">
-          <p className="font-playfair font-semibold text-4xl mb-5 ">
+          <p className="font-playfair font-semibold text-4xl mb-5 skills-heading">
             MY <span className="text-red">SKILLS</span>
             <LineGradient width="w-60" />
           </p>
