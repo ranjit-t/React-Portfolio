@@ -9,7 +9,7 @@ import moneytracker from "../Images/moneytracker.png";
 
 export default function Projects() {
   return (
-    <div className="project-main">
+    <div className="project-main" id="projects">
       <div className=" w-full flex align-middle justify-center mb-10">
         <p className="font-playfair font-semibold text-4xl mb-5">
           <span className="text-red">PRO</span>JECTS

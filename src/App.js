@@ -7,13 +7,14 @@ import { useRef } from "react";
 
 function App() {
   const windowSize = useRef([window.innerWidth, window.innerHeight]);
+  // const [selectedPage, setSelectedPage] = useState("landing");
   return (
     <div className="App ">
       <p className="logo">
         <b>RT</b>
       </p>
       <div>
-        <Landing style={{ width: windowSize.current[0] }}></Landing>
+        <Landing style={{ width: windowSize.current[0] }} />
         <LineGradient className="mt-8"></LineGradient>
       </div>
       <div>

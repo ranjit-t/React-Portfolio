@@ -60,6 +60,10 @@
     transition: all 0.5s;
   }
 
+  .details {
+    margin-top: 60px;
+  }
+
   .developer-name {
     font-size: 7vw;
     display: flex;
