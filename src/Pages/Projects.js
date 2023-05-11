@@ -20,87 +20,117 @@ export default function Projects() {
         <div className="image-container">
           <img src={Aveyronici} alt="Aveyronici" />
           <div className="text-overlay">
-            <p className="project-heading">
-              <b>Aveyron ICI</b>
-            </p>
-            <p>
-              AVEYRON-ICI is a social platform that helps Aveyronnais to connect
-              with each other. Here you can create outputs or participate in
-              outings created by others.
-            </p>
-            <p>
-              AVEYRON-ICI also offers to discover the best stores of quality
-              which are selected according to their quality, their reputation
-              and service.
-            </p>
+            <a
+              href="https://github.com/ranjit-t/ICI-Aveyron"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <p className="project-heading">
+                <b>Aveyron ICI</b>
+              </p>
+              <p>
+                AVEYRON-ICI is a social platform that helps Aveyronnais to
+                connect with each other. Here you can create outputs or
+                participate in outings created by others.
+              </p>
+              <p>
+                AVEYRON-ICI also offers to discover the best stores of quality
+                which are selected according to their quality, their reputation
+                and service.
+              </p>
+            </a>
           </div>
         </div>
         <div className="image-container">
           <img src={Ecommerce} alt="Ecommerce" />
           <div className="text-overlay">
-            <p className="project-heading">
-              <b>Minimalistic Ecommerce</b>
-            </p>
-            <p>
-              Developed this project using React for a dynamic and responsive
-              online store, with an intuitive user interface and seamless
-              navigation, it contains a wide range of products, including
-              images, descriptions, and prices and customers can easily browse
-              and add products to their cart.
-            </p>
-            <p>Technologies Used: HTML, CSS, React.Js, Localstorage.</p>
+            <a
+              href="https://github.com/ranjit-t/E-commerce"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <p className="project-heading">
+                <b>Minimalistic Ecommerce</b>
+              </p>
+              <p>
+                Developed this project using React for a dynamic and responsive
+                online store, with an intuitive user interface and seamless
+                navigation, it contains a wide range of products, including
+                images, descriptions, and prices and customers can easily browse
+                and add products to their cart.
+              </p>
+              <p>Technologies Used: HTML, CSS, React.Js, Localstorage.</p>
+            </a>
           </div>
         </div>
         <div className="image-container">
           <img src={marketplace} alt="marketplace" />
           <div className="text-overlay">
-            <p className="project-heading">
-              <b>House Listing Market Place</b>
-            </p>
-            <p>
-              Build this for to provide an app-like experience. Customers can
-              browse through house listings, with detailed information and
-              images provided for each property. The addition of Google Maps
-              makes it easy for customers to view each property's location and
-              surrounding area.
-            </p>
-            <p>
-              Technologies Used: HTML, CSS, React.Js, Firebase Storage and
-              Authentication.
-            </p>
+            <a
+              href="https://github.com/ranjit-t/House-Marketplace"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <p className="project-heading">
+                <b>House Listing Market Place</b>
+              </p>
+              <p>
+                Build this for to provide an app-like experience. Customers can
+                browse through house listings, with detailed information and
+                images provided for each property. The addition of Google Maps
+                makes it easy for customers to view each property's location and
+                surrounding area.
+              </p>
+              <p>
+                Technologies Used: HTML, CSS, React.Js, Firebase Storage and
+                Authentication.
+              </p>
+            </a>
           </div>
         </div>
         <div className="image-container">
           <img src={memorygame} alt="memorygame" />
           <div className="text-overlay">
-            <p className="project-heading">
-              <b>Memory Game</b>
-            </p>
-            <p>
-              Ready for a fun mental challenges ? Here is a game with some
-              hidden cards to unreveil. As a player your task is to match pairs
-              of images that are randomly placed.
-            </p>
-            <p> Technologies Used: HTML, CSS, React.Js.</p>
+            <a
+              href="https://github.com/ranjit-t/Memory-Game"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <p className="project-heading">
+                <b>Memory Game</b>
+              </p>
+              <p>
+                Ready for a fun mental challenges ? Here is a game with some
+                hidden cards to unreveil. As a player your task is to match
+                pairs of images that are randomly placed.
+              </p>
+              <p> Technologies Used: HTML, CSS, React.Js.</p>
+            </a>
           </div>
         </div>
         <div className="image-container">
           <img src={moneytracker} alt="moneytracker" />
           <div className="text-overlay">
-            <p className="project-heading">
-              <b>Money Tracker</b>
-            </p>
-            <p>
-              A web app that helps users to keep track of their daily expenses.
-              Create your account, add the transactions you made and delete them
-              when you need to. The app will store the transactions for you, so
-              you can come back whenever you wish. Just log back in and you'll
-              find everything as you've left it!
-            </p>
-            <p>
-              Technologies Used: HTML, CSS, React.Js, Firebase Storage and
-              Authentication.
-            </p>
+            <a
+              href="https://github.com/ranjit-t/Money-Tracker"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <p className="project-heading">
+                <b>Money Tracker</b>
+              </p>
+              <p>
+                A web app that helps users to keep track of their daily
+                expenses. Create your account, add the transactions you made and
+                delete them when you need to. The app will store the
+                transactions for you, so you can come back whenever you wish.
+                Just log back in and you'll find everything as you've left it!
+              </p>
+              <p>
+                Technologies Used: HTML, CSS, React.Js, Firebase Storage and
+                Authentication.
+              </p>
+            </a>
           </div>
         </div>
         <div className="image-container">

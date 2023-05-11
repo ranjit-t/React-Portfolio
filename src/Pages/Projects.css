@@ -41,6 +41,9 @@
   padding: 0 20px 0 20px 0;
   line-height: 1.4;
 }
+.text-overlay a {
+  cursor: pointer;
+}
 
 .text-overlay p {
   /* position: absolute;
