@@ -6,6 +6,7 @@ import Ecommerce from "../Images/e-commerce.png";
 import marketplace from "../Images/housemarketplace.png";
 import memorygame from "../Images/memorygame.png";
 import moneytracker from "../Images/moneytracker.png";
+import whatsapp from "../Images/whatsapp.png";
 
 export default function Projects() {
   return (
@@ -134,14 +135,26 @@ export default function Projects() {
           </div>
         </div>
         <div className="image-container">
-          <div className="askformore bg-red flex ">
-            <p>React Frameworks</p>
-            <p>Mobile Responsive</p>
-            <p>User Friendly</p>
+          <img src={whatsapp} alt="moneytracker" />
+          <div className="text-overlay">
+            <a
+              href="https://github.com/ranjit-t/Whatsapp-Like-Chat"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <p className="project-heading">
+                <b>Whatsapp Clone</b>
+              </p>
+              <p>
+                A web app that replicates whatsapp. This app lets you find other
+                users and initiate a conversations.
+              </p>
+              <p>
+                Technologies Used: HTML, CSS, React.Js, Firebase Storage and
+                Authentication.
+              </p>
+            </a>
           </div>
-          {/* <div className="text-overlay">
-            <p>More On Demand</p>
-          </div> */}
         </div>
       </div>
     </div>
