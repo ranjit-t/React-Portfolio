@@ -41,3 +41,8 @@
   position: relative;
   left: -4px;
 }
+@media (max-width: 700px) {
+  .page-viewer {
+    display: none;
+  }
+}
