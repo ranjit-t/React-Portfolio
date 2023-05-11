@@ -33,11 +33,11 @@ export default function Contact() {
         </form>
         <div className="email-add">
           <p className=" mb-10 font-playfair font-semibold text-4xl mb-5 text-blue">
-            SEND AN EMAIL
+            SAY HELLO <span className="text-4xl ">👋</span>
           </p>
-          <p className="mb-10">
+          {/* <p className="mb-10">
             Hello <span className="text-2xl ">👋</span>
-          </p>
+          </p> */}
           <a href="mailto:amailtoranjith@gmail.com">
             <p>amailtoranjith@gmail.com</p>
           </a>
