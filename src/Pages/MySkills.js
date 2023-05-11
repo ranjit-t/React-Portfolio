@@ -4,7 +4,7 @@ import "./MySkills.css";
 
 export default function MySkills() {
   return (
-    <div className="my-skills" id="myskills">
+    <div className="my-skills" id="skills">
       <div className="flow flow-column align-middle justify-center ">
         <div className=" w-full flex align-middle justify-center">
           <p className="font-playfair font-semibold text-4xl mb-5 skills-heading">

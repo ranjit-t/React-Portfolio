@@ -12,12 +12,13 @@
 input,
 textarea {
   color: black;
-  width: 300px;
-  padding: 5px;
+  width: 400px;
+  padding: 10px;
+  font-size: 1.3em;
 }
 input::placeholder,
 textarea::placeholder {
-  padding: 5px;
+  padding: 3px;
 }
 
 .contact-form label p {
@@ -29,11 +30,12 @@ textarea::placeholder {
   font-size: 25px;
 }
 .form-btn {
-  background-color: rgb(44 188 233);
+  background-color: rgb(253 204 73);
   padding: 10px 0;
+  font-size: 1.5em;
 }
 .form-btn:hover {
-  background-color: rgb(46, 165, 201);
+  background-color: rgb(44 188 233);
 }
 .footer {
   margin: 60px 0 30px 0;
@@ -46,5 +48,12 @@ textarea::placeholder {
   .email-add {
     font-size: 25px;
     margin-top: 80px;
+  }
+  input,
+  textarea {
+    color: black;
+    width: 80vw;
+    padding: 10px;
+    font-size: 1.3em;
   }
 }

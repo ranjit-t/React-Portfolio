@@ -14,26 +14,25 @@ export default function Contact() {
       <div className="contact-content mb-10">
         <form className="contact-form">
           <label>
-            <p>Email</p>
-            <input type="email" placeholder="email" />
+            <input type="email" placeholder="Email" />
           </label>
           <label>
-            <p>Full Name</p>
-            <input type="text" placeholder="full name" />
+            <input type="text" placeholder="Full Name" />
           </label>
           <label>
-            <p>Subject</p>
-            <input type="subject" placeholder="subject" />
+            <input type="subject" placeholder="Subject" />
           </label>
           <label>
-            <p>Message</p>
-            <textarea rows="10" placeholder="message"></textarea>
+            <textarea rows="10" placeholder="Message"></textarea>
           </label>
           <button className="form-btn">Submit</button>
         </form>
         <div className="email-add">
+          <p className=" mb-10 font-playfair font-semibold text-4xl mb-5 text-blue">
+            SEND AN EMAIL
+          </p>
           <p className="mb-10">
-            Hello <span className="text-2xl">👋</span>
+            Hello <span className="text-2xl ">👋</span>
           </p>
           <a href="mailto:amailtoranjith@gmail.com">
             <p>amailtoranjith@gmail.com</p>
