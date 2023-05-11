@@ -8,6 +8,8 @@ import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import PageViewer from "./Components/PageViewer";
 import Logo from "./Images/rtwhite.png";
+import { Github } from "./Images/AllSVG.js";
+import Linkedin from "./Images/linkedin.png";
 
 function App() {
   const windowSize = useRef([window.innerWidth, window.innerHeight]);
@@ -57,6 +59,27 @@ function App() {
         </motion.div>
       </div>
       <PageViewer selectedPage={selectedPage}></PageViewer>
+      <div className="contact-bar">
+        <a
+          href="https://github.com/ranjit-t/"
+          target="_blank"
+          rel="noreferrer"
+          className="github-icon"
+        >
+          {" "}
+          <Github fill="white" width="30px" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/ranjit-t8/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {" "}
+          <img src={Linkedin} alt="Linkedin" width="36px" />
+        </a>
+
+        <hr />
+      </div>
     </div>
   );
 }

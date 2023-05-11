@@ -49,3 +49,32 @@
     width: 50px;
   }
 }
+
+.contact-bar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  left: 5px;
+  animation: contact-bar-anime 1s linear;
+}
+.contact-bar > * {
+  margin-bottom: 20px;
+  margin-right: 5px;
+}
+.github-icon {
+}
+hr {
+  /* height: 100px; */
+  transform: rotate(90deg);
+}
+
+@keyframes contact-bar-anime {
+  0% {
+    bottom: -1000px;
+  }
+
+  100% {
+    bottom: 0;
+  }
+}
