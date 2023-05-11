@@ -7,15 +7,20 @@ import Projects from "./Pages/Projects";
 import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import PageViewer from "./Components/PageViewer";
+import Logo from "./Images/rtwhite.png";
 
 function App() {
   const windowSize = useRef([window.innerWidth, window.innerHeight]);
   const [selectedPage, setSelectedPage] = useState("landing");
   return (
     <div className="App ">
-      <p className="logo">
+      {/* <p className="logo">
         <b>RT</b>
-      </p>
+      </p> */}
+
+      <div className="logo">
+        <img src={Logo} alt="logo" width="80px" />
+      </div>
       <div>
         <motion.div
           amount="all"
