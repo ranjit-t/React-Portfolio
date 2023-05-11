@@ -6,6 +6,7 @@ import MySkills from "./Pages/MySkills";
 import Projects from "./Pages/Projects";
 import { useRef, useState } from "react";
 import { motion } from "framer-motion";
+import PageViewer from "./Components/PageViewer";
 
 function App() {
   const windowSize = useRef([window.innerWidth, window.innerHeight]);
@@ -17,7 +18,6 @@ function App() {
       </p>
       <div>
         <motion.div
-          // margin="0 0 -200px 0"
           amount="all"
           onViewportEnter={() => setSelectedPage("landing")}
         >
@@ -27,7 +27,6 @@ function App() {
       </div>
       <div onViewportEnter={() => setSelectedPage("skills")}>
         <motion.div
-          // margin="0 0 -200px 0"
           amount="all"
           onViewportEnter={() => setSelectedPage("skills")}
         >
@@ -37,7 +36,6 @@ function App() {
       </div>
       <div>
         <motion.div
-          // margin="0 0 -200px 0"
           amount="all"
           onViewportEnter={() => setSelectedPage("projects")}
         >
@@ -47,63 +45,13 @@ function App() {
       </div>
       <div onViewportEnter={() => setSelectedPage("contact")}>
         <motion.div
-          // margin="0 0 -200px 0"
           amount="all"
           onViewportEnter={() => setSelectedPage("contact")}
         >
           <Contact></Contact>
         </motion.div>
       </div>
-      <div className="page-viewer">
-        <div className={selectedPage === "landing" ? "active" : ""}>
-          <a
-            href="#landing"
-            style={{
-              minHeight: "30px",
-              minWidth: "30px",
-              display: "inline-block",
-            }}
-          >
-            {" "}
-          </a>
-        </div>
-        <div className={selectedPage === "skills" ? "active" : ""}>
-          <a
-            href="#skills"
-            style={{
-              minHeight: "30px",
-              minWidth: "30px",
-              display: "inline-block",
-            }}
-          >
-            {" "}
-          </a>
-        </div>
-        <div className={selectedPage === "projects" ? "active" : ""}>
-          <a
-            href="#projects"
-            style={{
-              minHeight: "30px",
-              minWidth: "30px",
-              display: "inline-block",
-            }}
-          >
-            {" "}
-          </a>
-        </div>
-        <div className={selectedPage === "contact" ? "active" : ""}>
-          <a
-            href="#contact"
-            style={{
-              minHeight: "30px",
-              minWidth: "30px",
-              display: "inline-block",
-            }}
-          >
-            {" "}
-          </a>
-        </div>
-      </div>
+      <PageViewer selectedPage={selectedPage}></PageViewer>
     </div>
   );
 }
