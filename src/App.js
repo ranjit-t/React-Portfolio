@@ -60,21 +60,20 @@ function App() {
       </div>
       <PageViewer selectedPage={selectedPage}></PageViewer>
       <div className="contact-bar">
-        <a
-          href="https://github.com/ranjit-t/"
-          target="_blank"
-          rel="noreferrer"
-          className="github-icon"
-        >
-          {" "}
-          <Github fill="white" width="30px" />
-        </a>
+        <div className="github-icon">
+          <a
+            href="https://github.com/ranjit-t/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Github fill="white" width="29px" />
+          </a>
+        </div>
         <a
           href="https://www.linkedin.com/in/ranjit-t8/"
           target="_blank"
           rel="noreferrer"
         >
-          {" "}
           <img src={Linkedin} alt="Linkedin" width="36px" />
         </a>
 
