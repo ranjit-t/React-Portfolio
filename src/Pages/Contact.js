@@ -3,6 +3,10 @@ import LineGradient from "../Components/LineGradient";
 import "./Contact.css";
 
 export default function Contact() {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // alert("done");
+  };
   return (
     <div id="contact" className="contact">
       <div className=" w-full flex align-middle justify-center mb-10 mt-16">
@@ -12,18 +16,18 @@ export default function Contact() {
         </p>
       </div>
       <div className="contact-content mb-10">
-        <form className="contact-form">
+        <form className="contact-form" onSubmit={handleSubmit}>
           <label>
-            <input type="email" placeholder="Email" />
+            <input type="email" placeholder="Email" required />
           </label>
           <label>
-            <input type="text" placeholder="Full Name" />
+            <input type="text" placeholder="Full Name" required />
           </label>
           <label>
-            <input type="subject" placeholder="Subject" />
+            <input type="subject" placeholder="Subject" required />
           </label>
           <label>
-            <textarea rows="10" placeholder="Message"></textarea>
+            <textarea rows="10" placeholder="Message" required />
           </label>
           <button className="form-btn">Submit</button>
         </form>

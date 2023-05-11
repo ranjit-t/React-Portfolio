@@ -46,13 +46,16 @@ textarea::placeholder {
     flex-direction: column;
   }
   .email-add {
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 80px;
+    margin-bottom: 50px;
+    border: 1px solid rgb(44 188 233);
+    padding: 50px;
   }
   input,
   textarea {
     color: black;
-    width: 80vw;
+    width: 70vw;
     padding: 10px;
     font-size: 1.3em;
   }

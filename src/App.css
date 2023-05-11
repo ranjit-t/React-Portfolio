@@ -45,4 +45,7 @@
   .page-viewer {
     display: none;
   }
+  .logo img {
+    width: 50px;
+  }
 }
